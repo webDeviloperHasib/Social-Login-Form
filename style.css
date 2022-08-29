@@ -1,0 +1,97 @@
+.sob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.main{
+    width: 800px;
+}
+.container{
+    background-color: darkred;
+    color: white;
+    width: 100%;
+    height: 500px;
+}
+.row{
+    padding: 30px;
+}
+h1{
+    text-align: center;
+}
+.col{
+    width:50%;
+    float: left !important;
+    padding:20px;
+    display: inline;
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.icon a{
+    display: block;
+    padding: 16px;
+    width: 80%;
+    margin-top: 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    color: white;
+}
+
+.two{
+    margin-top: 20px;
+}
+.fb{
+    background-color: blue;
+}
+.tw{
+    background-color: skyblue;
+}
+
+.go{
+    background-color: tomato;
+}
+
+.two input{
+    width: 94%;
+    padding: 13px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    outline: none;
+}
+.two{
+    margin-left: 90px;
+}
+
+input[type="submit"]{
+    margin-top: 20px;
+    width: 105%;
+    cursor: pointer;
+    background-color: black;
+    color: wheat;
+    transition: .5s;
+    border: none;
+}
+input[type="submit"]:hover{
+    background-color: red;
+    color: white;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    padding: 15px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.row2 .col:last-child{
+    text-align: right;
+}
+.row2 .col a{
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
